@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(226, 168, 226);  
+}
+
+
+header, article, footer,.overlay {
+    text-align: center;
+}
+
+.solo {
+    font-family: 'Caveat', cursive;  
+    font-size: 52px;
+    text-shadow: 0px 0px 20px rgb(14, 12, 12);
+}
+
+.fotosgaleria {
+
+ margin:10px;
+
+}
+
+.otro{
+    font-family: 'Caveat', cursive;
+    font-size: 38px;
+    text-shadow: 0px 0px 25px rgb(31, 29, 29);
+}
+
+
+.flex-container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: rgb(226, 168, 226);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.flex-container > img {
+    background-color:rgb(226, 168, 226);
+    width: 30%;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+img, ul {
+    box-shadow: 0px 0px 15px 5px rgb(46, 46, 46);
+    border: 7px solid black;
+}
+
+.circulo {
+
+    border-radius: 50%;
+    
+}
+
+
+
+li > a{
+
+
+    color:white;
+    
+}
+
+    ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    align-content: center;
+    height: 2.5em;
+    background-color: black;
+    }
+
+
+@media (max-width: 463px) {
+
+ul{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    height: 90vh;
+    width: 55%;
+    background-color: black;
+
+}
+li > a{
+
+
+    font-size: 2em;
+        
+    }
+
+}
